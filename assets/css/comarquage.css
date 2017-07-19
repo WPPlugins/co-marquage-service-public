@@ -1,0 +1,208 @@
+/* Co-MARQUAGE
+--------------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------- Global */
+#comarquage * { box-sizing:content-box!important; -webkit-box-sizing: content-box!important; -moz-box-sizing: content-box!important; background-repeat: no-repeat; padding:0; margin:0; border:none; font-family: Helvetica, Arial, sans-serif; }
+#comarquage { display: block; float:left; width:100%; position: relative; color:#414856; line-height: 1.4em; font-weight: normal; font-size: 16px; }
+#comarquage h1 { font-size: 2.2em; color:#0b6ba8; margin:30px 0 20px; }
+#comarquage h2 { font-size: 1.6em; color:#0b6ba8; text-transform: none; }
+#comarquage h3 { font-size: 1.2em; color:#0b6ba8; text-transform: none; }
+#comarquage h4 { font-size: 1em; font-weight: bold; }
+#comarquage a { color:#414856; text-decoration: none; }
+#comarquage a:hover { color:#0b6ba8; text-decoration: underline; }
+
+#comarquage p { margin: 0 0 0.6em 0; line-height: 1.5em; }
+
+/* table */
+#comarquage table.spTableau tr td, 
+#comarquage table.spTableau tr th { border: 1px solid #ccc; padding: 10px 10px; vertical-align: top; }
+#comarquage table.spTableau p { margin:0; }
+#comarquage .spTableauCelheader { background-color:#f6f6f6; }
+#comarquage .spTableauCelnormal { background-color:#fff; }
+
+#cm-sidebar .block { display: block; margin:0 0 40px 0; padding: 0 0 0 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background-color: #fff; border: 1px solid #ddd; overflow: hidden; }
+
+#comarquage .fa { margin: 0 5px 0 0; font-size: 27px; font-family: "FontAwesome"; } /* Font icon */
+
+
+/* ------------------------------------------ Theme */
+#comarquage.espace-pro h1, 
+#comarquage.espace-pro h2,
+#comarquage.espace-pro h3 { color:#a63950; }
+#comarquage.espace-pro a:hover { color:#a63950; }
+#comarquage.espace-pro #cm-content #sp-ou-sadresser h2 { background-color:#a63950;  }
+#comarquage.espace-pro .spOrganisme .spOrganisme-title:hover .expand { background-color: #a63950; }
+#comarquage.espace-pro #cm-content  li::before { color:#a63950; }
+#comarquage.espace-pro .spFilDArianeIci { color:#a63950; }
+
+#comarquage.espace-asso h1,
+#comarquage.espace-asso h2,
+#comarquage.espace-asso h3 { color:#0c7b38; }
+#comarquage.espace-asso a:hover { color:#0c7b38; }
+#comarquage.espace-asso #cm-content #sp-ou-sadresser h2 { background-color:#0c7b38;  }
+#comarquage.espace-asso .spOrganisme .spOrganisme-title:hover .expand { background-color: #0c7b38; }
+#comarquage.espace-asso #cm-content  li::before { color:#0c7b38; }
+#comarquage.espace-asso .spFilDArianeIci { color:#0c7b38; }
+
+
+/* ------------------------------------------ Main structure */
+#comarquage #cm-content { float:left; width:65%; }
+#comarquage #cm-content.nosidebar { float:left; width:100%; }
+#comarquage #cm-sidebar { float:right; display: block; width:30%; }
+
+/* footer */
+#comarquage .comarquage-footer { float:left; clear: both; border-top:1px solid #ddd; width:100%; padding: 20px 0; font-size:12px; }
+#comarquage .comarquage-footer p,
+#comarquage .comarquage-footer a { font-size:12px; }
+#comarquage .comarquage-footer .logo-sp { float:right; }
+#comarquage .comarquage-footer .logo-sp img { margin:0!important; }
+#comarquage .comarquage-footer .mentions { float:left; }
+
+/* ------------------------------------------ Sidebar */
+#cm-sidebar { padding: 30px 0 0 0; }
+#cm-sidebar .block > h2,
+#cm-sidebar .block > h3 { font-size: 1.3em; font-weight: normal; padding:10px 25px; margin: 0 0 20px 0; color:#232323; background-color: #ddd; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; }
+
+#cm-sidebar > div { }
+#cm-sidebar > div > h2 { color: #434343; background-color: #eee; }
+#cm-sidebar > div > ul,
+#cm-sidebar > div > .publication-text { margin: 0 10% 20px; }
+#cm-sidebar > div > .spCommentaire { margin: 0 10% 20px; }
+#cm-sidebar > div > ul > li { list-style-type: none; padding:8px 0; border-bottom: 1px dashed #ddd; margin:0; }
+#cm-sidebar ul li { font-size: 0.8em; color: #666; font-style: italic; }
+#cm-sidebar ul li a { color:#343434; font-size:16px; text-decoration: none; line-height: 19px; font-style: normal; }
+#cm-sidebar a:hover { text-decoration: underline; }
+
+#cm-sidebar ul.spListe { margin:0; }
+#cm-sidebar ul.spListe li { padding:0; } 
+
+/* block specifique */
+#cm-sidebar #sp-service-en-ligne { background-color: #f2e7e7; border:none; }
+#cm-sidebar #sp-service-en-ligne h3 { background-color:#b90067; color:#fff; }
+#cm-sidebar #sp-service-en-ligne .more { background-color:#e6cccc; }
+
+/* Actualités */
+#cm-sidebar #sp-actualite {}
+
+/* Questions Reponses */
+#cm-sidebar #sp-question-reponse .spPublicationNoeud { color:#888; }
+
+/* Auto More */
+#cm-sidebar .automore {  }
+#cm-sidebar .automore .more { width:80%; padding:12px 10%; text-align: right; background-color: #eee; -webkit-border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; font-size: 2em;  cursor: pointer; -webkit-transition: all 0.2s ease; -moz-transition: all  0.2s ease; -o-transition: all  0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease; }
+#cm-sidebar .automore .more:hover { padding:12px 45% 12px 0; width:55%; font-size: 2.5em; }
+
+/* ----------------------------------------- Content */
+
+/* Alert */
+#comarquage .alert { padding:15px 2%; display: inline-block; width:96%; margin-top: 20px; }
+#comarquage .alert-info { color: #31708f; background-color: #d9edf7; border-color: #bce8f1; }
+
+/* Home menu */
+#cm-content #co-home-menu { margin:30px 0!important; overflow: hidden; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background-color: #fff; border: 1px solid #ddd; }
+#cm-content #co-home-menu > li { list-style-type: none!important; padding:2% 3%!important; width:94%; margin:0; float:left; clear:both; border-bottom: 1px solid #ddd; }
+#cm-content #co-home-menu > li:nth-child(odd) { background-color: #F6F6F6; }
+#cm-content #co-home-menu > li > .co-home-img { display:block; float:left; margin:0!important; }
+#cm-content #co-home-menu > li > h2 { margin:5px 0 0 5%; width:30%; float:left; }
+#cm-content #co-home-menu > li > h2 a { font-size: 0.9em; color:#232323; font-weight: normal; line-height: 1.1em; }
+#cm-content #co-home-menu > li  a { font-size: 1em; color:#232323; font-weight: normal; }
+#cm-content #co-home-menu li::before { display: none; }
+#cm-content #co-home-menu .co-home-sousmenu { margin:0!important; width:50%; float:right; }
+#cm-content #co-home-menu .co-home-sousmenu li { margin:0!important; padding: 0!important; list-style-type: none; float:left; }
+
+/* search */
+#co-bar { background: #F2F2F2; padding:8px 2%; position: relative; float: left; overflow: hidden; width: 96%; margin: 0 0 10px; }
+#co-search { position:relative; display: block; float:left; width:280px; border:1px solid #ddd; margin:0; -webkit-border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; background-color: #fff;  } 
+#co-search input[type="text"] { border:0px; background-color: transparent; height:40px; line-height: 40px; padding:0 10px; width:200px; }
+#co-search .co-searchbtn { position:relative; display: block; float: right; margin:0 0 0 10px; padding:5px 10px; height:30px; border-radius:0px; }
+.colorsearch { background-color: #e8e151; }
+.search-title { font-size: 1.3em; }
+
+#comarquage .monsp { padding:0 20px; background-color:#fff; color:#b90067!important; display: block; float:right; line-height: 40px; height:40px; font-size: 1.2em; }
+#comarquage .monsp:hover { background-color:#31579C; color:#fff!important; }
+
+#comarquage .co-home { float:left; display: block; margin:0 40px 0 10px;  }
+#comarquage .co-home .fa { line-height: 40px; height:40px; color:#888; }
+#comarquage .co-home:hover .fa { color:#31579C; }
+
+/* Publication Main */
+#cm-content .publication-text h2 { font-size:1.5em;  border-bottom: 1px solid #ccc; margin:30px 0 10px; padding:8px; }
+#cm-content .publication-text h3 { font-size:1.2em; margin:20px 0 10px;}
+#cm-content .publication-text li p { margin:0; }
+
+#cm-content .block { display: block; background: #F6F6F6; border:1px solid #ddd; }
+#cm-content .block > h2 { font-size: 1.2em; padding:10px 25px; margin: 0 0 20px 0; color:#232323; background: #F8F8F8; font-weight: lighter; border-bottom: 1px solid #ddd; }
+
+#cm-content .ServiceComplementaire { padding:20px; background-color: #F6F6F6; margin: 10px 0;}  
+#cm-content .ServiceComplementaire a { font-size: 1.4em;  }
+
+#cm-content ul { margin: 0.5em 0 1em 1em; display: block; }
+#cm-content li { position: relative; list-style-type: none!important; padding: 3px 0 3px 1em!important; list-style-position: outside!important; }
+#cm-content li::before { position: absolute; top: .3em; left: 0; content:'>'; color:#0b6ba8; font-size: 13px; }
+
+#cm-content .spListe li::before { content:"\2022"; font-size: 18px; }
+
+/* Fil d'ariane */
+#comarquage .spFilDAriane { font-size: 0.9em; }
+#comarquage .spFilDArianeIci { color:#0b6ba8; }
+
+/* Encart : a noter, attention, ... */
+#comarquage .spANoter, 
+#comarquage .spASavoir, 
+#comarquage .spAttention { margin: 20px 0; background: #F6F6F6; padding:10px 10px 1px 10px; }
+#comarquage .spANoter img,
+#comarquage .spASavoir img,
+#comarquage .spAttention img { float:left; display: block; margin:0 15px 0 0!important; background: #F6F6F6; }
+
+/* Avertissement */
+#sp-avertissement { }
+#sp-avertissement h2 {  }
+#sp-avertissement .fa { font-size: 20px; }
+
+/* Annexe block */
+#comarquage .block-annexe { display: block; margin:40px 0 20px 0; padding: 25px 30px 20px 10px;	-webkit-border-radius: 5px;	-moz-border-radius: 5px; border-radius: 5px; background: #fff; border:1px solid #ddd; }
+#comarquage .block-annexe h2 { display:block; position: relative; float: left; clear:both; font-size: 1.3em!important; background: #fff!important; border:none!important; margin: -35px 0 0 15px; padding:0 20px; clear:both;}
+#comarquage .block-annexe h3 { display: inline; font-size: 14px; }
+#comarquage .block-annexe ul { margin: 0px 0 0 20px!important; }
+
+/* Ou s'adresser ? */
+#cm-content #sp-ou-sadresser { margin-top:40px; }
+#cm-content #sp-ou-sadresser h2 { background-color:#287ab7; color:#fff; font-size: 1.5em; }
+#comarquage .spOrganisme { border-bottom: 1px solid #ddd;  }
+#comarquage .spOrganisme .spOrganisme-title { cursor: pointer; padding: 10px 5%; width: 90%; }
+#comarquage .spOrganisme .spOrganisme-title h3 { color:#232323; display: block; max-width: 90%; }
+
+#comarquage .spOrganisme .spOrganisme-title .expand { background-color: transparent; width: 20px; height: 20px; display: block; position: relative; margin: 4px 12px 0 0; float:right; }
+#comarquage .spOrganisme .spOrganisme-title.orgaclose .expand { background: #aaa url('../images/plus.png') no-repeat center center; background-size: 13px; }
+#comarquage .spOrganisme .spOrganisme-title.orgaopen .expand { background: #232323 url('../images/minus.png') no-repeat center center; background-size: 13px; }
+#comarquage .spOrganisme .spOrganisme-title:hover .expand { background-color: #0B6BA7; }
+
+#comarquage .spOrganisme .spOrganisme-title:hover { background-color: #ddd; }
+#comarquage .spOrganisme .spOrganisme-content { display:none; background-color: #fff; padding:15px 30px 30px; }
+
+/* pivot */
+/* .spOrganisme.local .spOrganisme-content { display:block; } */
+#comarquage .spOrganisme .spGoogleMap { width:100%; height:350px; margin:0 0 10px 0;  }
+#comarquage .spOrganisme .spGoogleMap img { max-width:none; }
+#comarquage .spOrganisme h4 { margin:10px 0 5px; }
+#comarquage .spOrganisme .note { font-size: 0.9em; display: inline-block; }
+#comarquage .spOrganisme .address { font-style: normal; }
+#comarquage .spOrganisme .ouverture .day { text-decoration: underline; }
+#comarquage .spOrganisme .ouverture p { margin:0; }
+#comarquage .spOrganisme.paris_mairie_arrondissement { display:none; } 
+
+/* En savoir plus */
+#comarquage p.panel-link { margin-bottom: 0px; }
+#comarquage p.panel-source { color:#757575; font-style: italic; font-size: 0.8em; margin:0; }
+
+/* pivot */
+#comarquage .spPublicationTheme a, 
+#comarquage .spPublicationDossier a { font-size: 17px; }
+
+
+/* ----------------------------------------- Responsive */
+@media (max-width: 767px) {
+	#comarquage #cm-content, #comarquage #cm-sidebar { width:100%; float:left; }
+	#comarquage #cm-sidebar .block { display:none; width:100%; } 
+	#comarquage #cm-sidebar #sp-service-en-ligne, #comarquage #cm-sidebar #sp-avertissement { display: block; }
+}

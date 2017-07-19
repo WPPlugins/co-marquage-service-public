@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="../Stylesheets/Themes.xsl" type="text/xsl"?>
+
+<Noeud xmlns:conf="kelis.fr/conf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schemas/1.0/Noeud.xsd" ID="Themes" racine="0" version="00.00.00">
+<TitreLong>Liste des thèmes</TitreLong>
+<Coproducteur/>
+<Type>
+<Nom>Noeud</Nom>
+</Type>
+<TypeCatégorie nom="Rubrique">
+<Catégorie nom="Association"/>
+</TypeCatégorie>
+<CouvertureGéographique>
+<Nom>France métropolitaine</Nom>
+</CouvertureGéographique>
+
+<Descendance>
+
+<Fils lien="N31403" positionPrésentation="1" nature="Noeud" type="Theme" class="obligations-administrative">
+<TitreContextuel>Formalités administratives</TitreContextuel>
+</Fils>
+
+<Fils lien="N31404" positionPrésentation="2" nature="Noeud" type="Theme" class="financement">
+<TitreContextuel>Fonctionnement</TitreContextuel>
+</Fils>
+
+<Fils lien="N31405" positionPrésentation="3" nature="Noeud" type="Theme" class="financement">
+<TitreContextuel>Financement</TitreContextuel>
+</Fils>
+
+<Fils lien="N31406" positionPrésentation="5" nature="Noeud" type="Theme" class="secteurs-specifiques">
+<TitreContextuel>Associations spécifiques et fondations</TitreContextuel>
+</Fils>
+</Descendance>
+
+<Actualite ID="R17562" seq="1" URL="http://www.service-public.fr/spip.php?page=actu-rss-association" type="Fil actualité SP">
+<Titre>Actualités</Titre>
+</Actualite>
+
+<CommentFaireSi ID="F3109" seq="1">Je crée une association</CommentFaireSi>
+<CommentFaireSi ID="F31613" seq="2">J'organise une manifestation associative</CommentFaireSi>
+
+</Noeud>
